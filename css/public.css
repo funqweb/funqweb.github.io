@@ -1,0 +1,395 @@
+@font-face{
+    font-family: "微軟正黑體";
+    src: url('../fonts/Microsoft JhengHei.eot');
+    src:url('../fonts/Microsoft JhengHei.woff'),
+    url('../fonts/Microsoft JhengHei.ttf'),
+    url('../fonts/Microsoft JhengHei.svg');
+}
+@font-face{
+    font-family: "Microsoft JhengHei";
+    src: url('../fonts/Microsoft JhengHei.eot');
+    src:url('../fonts/Microsoft JhengHei.woff'),
+    url('../fonts/Microsoft JhengHei.ttf'),
+    url('../fonts/Microsoft JhengHei.svg');
+}
+*,body,ul, ul li{
+    padding: 0;
+    margin: 0;
+    font-family: "微軟正黑體","Microsoft JhengHei";
+}
+ul, ul li{list-style-type:none;}
+a,a:link,a:visited,a:hover,a:active{  text-decoration:none; }
+input,textarea,select,button{outline:none;  -webkit-border-radius: 0;  -moz-border-radius: 0; border-radius: 0;}
+select::-ms-expand { display: none; }
+h1,h2,h3,h4,h5,h6{  font-weight: 400;  }
+.navBox{
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    background-color: #fff;
+}
+.navBox .navTOP{
+    overflow: hidden;
+    position: relative;
+    padding: 20px 160px 15px;
+}
+.navBox .navTOP .logo{
+    overflow: hidden;
+}
+.navBox .navTOP .logo img{
+    width: auto;
+    max-height: 100%;
+}
+.navBox .navTOP .ulBox{
+    overflow: hidden;
+    margin: 8px 0 0 0;
+}
+.navBox .navTOP .ulBox .ul{
+    overflow: hidden;
+    float: left;
+    margin: 0 20px 0 0;
+}
+.navBox .navTOP .ulBox .ul ul{}
+.navBox .navTOP .ulBox .ul ul li{
+    display: inline-block;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    line-height: 30px;
+    text-align: center;
+    background-color: #fff;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #f2f2f2;
+}
+.navBox .navTOP .ulBox .ul2{
+    overflow: hidden;
+    float: right;
+}
+.navBox .navTOP .ulBox .ul2 ul{
+    float: right;
+}
+.navBox .navTOP .ulBox .ul2 ul li{
+    display: inline-block;
+    overflow: hidden;
+    width: 35px;
+    height: 35px;
+    line-height: 35px;
+    text-align: center;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+    border: 1px solid #f2f2f2;
+    background-color: #ededed;
+}
+.navBox .navTOP .ulBox .ul2 ul li a{
+    color: #00164c;
+}
+.navBox .navTOP .ulBox .ul2 ul .this{
+    background-color: #00164c;
+}
+.navBox .navTOP .ulBox .ul2 ul .this a{
+    color: #fff;
+}
+
+.navBox .nav-ul{
+    position: absolute;
+    width: 100%;
+    padding: 0 160px ;
+    background-color: #f0f0f0;
+}
+.navBox .nav-ul .subnav{
+    display:table;
+    width: 100%;
+}
+.navBox .nav-ul .subnav li{
+    float:left;
+    position:relative;
+    margin: 0 6.9% 0 0;
+}
+.navBox .nav-ul .subnav li:last-child{
+    float: right;
+    margin: 0 0 0 0;
+}
+.navBox .nav-ul .subnav li a{
+    display:inline-block;
+    padding: 20px 0 0 0;
+    height:65px;
+    text-align:center;
+    font-size:18px;
+    color:#000;
+    transition:background .1s linear 0s;
+    -webkit-transition:background .1s linear 0s;
+    -moz-transition:background .1s linear 0s;
+    -o-transition:background .1s linear 0s;
+}
+.navBox .nav-ul .subnav li a img{
+    cursor: pointer;
+}
+.navBox .nav-ul .subnav li span{
+    position: absolute;
+    bottom: 8px;
+    left: 50%;
+    margin-left: -42px;
+    display:block;
+    vertical-align:middle;
+    width:42px;
+    height:5px;
+    background-color: #00205b;
+    opacity: 0;
+}
+.navBox .nav-ul .subnav .this span{
+    margin-left: -21px;
+    background-color: #00205b;
+    opacity: 1;
+}
+.navBox .nav-ul .subnav li:hover span{
+    margin-left: -21px;
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+    opacity: 1;
+}
+.navBox .nav-ul .subnav li a:hover{
+    background-color:#f0f0f0;
+    color:#000;
+}
+.navBox .nav-ul .subnav li .bg{
+    background-color:#f0f0f0;
+    color:#000;
+}
+.navBox .nav-ul .subnav li dl{
+    display:none;
+    width: 100%;
+    position:absolute;
+    left:50%;
+    margin-left: -50%;
+    background-color:#f0f0f0;
+    color: #fff;
+}
+.navBox .nav-ul .subnav li dl dd{}
+.navBox .nav-ul .subnav li dl dd a{
+    width: 100%;
+    min-width: 142px;
+    display: block;
+    overflow: hidden;
+    font-size: 16px;
+    color:#000;
+    padding: 0 5px;
+    height: 45px;
+    border-top: 1px solid #e0e0e0;
+    line-height: 45px;
+}
+.navBox .nav-ul .subnav li dl dd a:hover{
+    background-color: #00205b;
+    color: #fff;
+}
+.navBox .nav-ul .subnav li .this{
+    background-color: #00205b;
+    color: #fff;
+}
+.navBox .nav-ul .subnav li:nth-child(3) dl{
+    width: 550%;
+    margin-left: -275%;
+}
+.navBox .nav-ul .subnav li:nth-child(4) dl{
+    width: 400%;
+    margin-left: -200%;
+}
+.navBox .nav-ul .subnav li:nth-child(8) dl{
+    width: 150%;
+    margin-left: -75%;
+}
+.searchForm{
+    overflow: hidden;
+    position: fixed;
+    z-index: 999;
+    width: 100%;
+    top: 152px;
+    padding: 10px 0 10px 160px ;
+    left: 0%;
+    display: none;
+    background-color: #f0f0f0;
+}
+.searchForm input{
+    width: 200px;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    color: #555;
+    border: 1px solid #ccc;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    margin: 0 10px 0 0;
+}
+.searchForm button{
+    height: 34px;
+    background-color: #f0f0f0;
+    border: none;
+}
+.navBoxH{
+    overflow: hidden;
+    position: relative;
+    height: 152px;
+}
+
+
+.modal{
+    z-index: 999990;
+}
+#welcome .modal-content {
+    overflow: hidden;
+}
+
+
+.ZBanner{
+    overflow: hidden;
+    position: relative;
+}
+.ZBanner .spT{
+    overflow: hidden;
+    position: absolute;
+    width: 100%;
+    top: 35%;
+    left: 0;
+    text-align: center;
+    z-index: 1;
+}
+.ZBanner .spT h1{
+    color: #fff;
+    margin: 0 0 40px 0;
+}
+.ZBanner .spT h2{
+    color: #fff;
+    margin: 0;
+}
+.ZBanner .spT h2 a{
+    color: #fff;
+}
+.ZBanner .spI{
+    overflow: hidden;
+}
+.ZBanner .spI img{
+    width: 100%;
+    height: auto;
+}
+
+
+.pageBox{
+    overflow: hidden;
+}
+.pageBox ul{
+    text-align: center;
+    width: 535px;
+    padding-top: 35px;
+    margin: auto;
+    border-top: 1px solid #00205b;
+}
+.pageBox ul li{
+    display: inline-block;
+}
+.pageBox ul li a{
+    display: block;
+    overflow: hidden;
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    font-size: 21px;
+    text-align: center;
+    margin: 0 5px;
+    color: #00205b;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.pageBox ul .this a,.pageBox ul li:hover a{
+    color: #fff;
+    background-color: #00205b;
+}
+
+
+
+
+
+
+
+
+.footer{
+    overflow: hidden;
+    position: relative;
+    padding: 60px 0 30px 0;
+    background-color: #00205b;
+}
+.footer .tit{
+    overflow: hidden;
+}
+.footer .tit .ul{
+    overflow: hidden;
+}
+.footer .tit .ul ul{}
+.footer .tit .ul ul li{
+    display: block;
+    float: left;
+    overflow: hidden;
+    margin: 0 10px 0 0;
+}
+.footer .tit .ul ul li i{
+    color: #fff;
+    font-size: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    border: 1px solid #f0f0f0;
+    -webkit-border-radius: 100%;
+    -moz-border-radius: 100%;
+    border-radius: 100%;
+}
+.footer .tit .more{
+    overflow: hidden;
+    margin: 2px 0 0 0;
+}
+.footer .tit .more a{
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;
+    height: 46px;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.footer .tit .more a img{
+    height: 15px;
+    margin: 0 0 0 10px;
+}
+.footer .tit .more a:hover{
+    background: rgba(0,0,0,.8);
+}
+.footer .tib{
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.footer .tib h5{
+    color: #fff;
+    line-height: 1.6;
+    margin: 10px 0 0 0;
+}
+.footer .tib h5 span{
+    margin: 0 30px 0 0;
+}
+.footer .tib h5 a{
+    color: #fff;
+
+}

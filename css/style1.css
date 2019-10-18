@@ -1,0 +1,1970 @@
+.section{
+    overflow: hidden;
+    position: relative;
+}
+.section .carousel-control {
+    position: absolute;
+    top: 35%;
+    bottom: 0;
+    left: 0;
+    width: 30px;
+    height: 57px;
+    color: #fff;
+    text-align: center;
+    text-shadow: 0 1px 2px rgba(0,0,0,0);
+    background-color: rgba(0,0,0,0);
+    filter: alpha(opacity=100);
+    opacity: 1;
+}
+.section .carousel-control.left{
+    left: 160px;
+    background-image: none;
+}
+.section .carousel-control.right{
+    left: auto;
+    right: 160px;
+    background-image: none;
+}
+.section .carousel-caption {
+    position: absolute;
+    top: 35%;
+    bottom: 0px;
+    z-index: 10;
+    color: #fff;
+    height: auto;
+    margin-top: -3px;
+    text-align: center;
+    padding: 0 220px;
+    right: 0%;
+    left: 0%;
+    font-size: 42px;
+    text-shadow: 0 1px 2px rgba(0,0,0,.6);
+}
+.section .item img{
+    width: 100%;
+    height: auto;
+}
+.section .buttons{
+    overflow: hidden;
+    bottom: 25%;
+    position: absolute;
+    width: 100%;
+}
+.section .buttons a{
+    overflow: hidden;
+    text-align: center;
+    border: 2px solid #fff;
+    color: #f0f0f0;
+    font-size: 16px;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 250px;
+    height: 55px;
+    line-height: 51px;
+    margin: 0 40px;
+    position: relative;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.section .buttons a .sp1{
+    position: relative;
+    z-index: 1;
+}
+.section .buttons a:nth-child(1){
+    background: rgba(0,17,54,0.9);
+}
+.section .buttons a:nth-child(2){
+    background: rgba(0,32,91,0.8);
+}
+.section .buttons a:nth-child(3){
+    background: rgba(255,255,255,0);
+}
+.section .buttons a img{
+    position: relative;
+    z-index: 1;
+    height: 15px;
+    margin: -3px 0 0 10px;
+}
+.section .buttons a .sp2{
+    display: block;
+    overflow: hidden;
+    position: absolute;
+    left: -100%;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0,0,0,.8);
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+}
+.section .buttons a:hover span{
+    left: 0;
+}
+.section2{
+    overflow: hidden;
+    padding: 50px 0 60px;
+    position: relative;
+}
+.section2 h1{
+    font-size: 48px;
+    margin: 0;
+    color: #00205b;
+    overflow: hidden;
+    line-height: initial;
+    text-align: center;
+}
+.section2 .center{
+    overflow: hidden;
+    margin: 40px 0 0 0;
+}
+.section2 .center ul{
+    display: flex;
+    flex-wrap: wrap;
+    padding: 0 90px;
+}
+.section2 .center ul li{
+    overflow: hidden;
+    width: 25%;
+    padding: 0 10px;
+    position: relative;
+}
+.section2 .center ul li .li{
+    overflow: hidden;
+    position: relative;
+    cursor: pointer;
+}
+.section2 .center ul li .liT{
+    overflow: hidden;
+    position: relative;
+    height: 240px;
+}
+.section2 .center ul li .liT h2{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    margin: 0;
+    padding: 15px 25px;
+    font-weight: bold;
+    color: #00205b;
+    background-color: rgba(255,255,255,.9);
+}
+.section2 .center ul li .liT img{
+    width: 100%;
+    height: auto;
+}
+.section2 .center ul li .liB{
+    overflow: hidden;
+    position: absolute;
+    top: 100%;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    padding: 15px 25px;
+    background: rgba(1,44,106,.8);
+    z-index: 1;
+    -webkit-transition: all 0.5s ease 0s ;
+    -moz-transition: all 0.5s ease 0s ;
+    -ms-transition: all 0.5s ease 0s ;
+    -o-transition: all 0.5s ease 0s ;
+    transition: all 0.5s ease 0s ;
+}
+.section2 .center ul li .liB h3{
+    margin: 10% 0 20px 0;
+    color: #fff;
+    font-weight: bold;
+}
+.section2 .center ul li .liB h5{
+    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    text-align: justify;
+}
+.section2 .center ul li .liB a{
+    position: absolute;
+    left: 25px;
+    width: 110px;
+    bottom: 20px;
+    height: 36px;
+    line-height: 32px;
+    text-align: center;
+    border: 2px solid #fff;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    color: #f0f0f0;
+}
+.section2 .center ul li .liB a:hover{
+    background: rgba(1,44,106,10);
+}
+.section2 .center ul li .li:hover h2{
+    display: none;
+}
+.section2 .center ul li .li:hover .liB{
+    top: 0;
+}
+.section3{
+    overflow: hidden;
+    padding: 50px 0 60px;
+    background-color: #012c6a;
+    position: relative;
+}
+.section3 .tit{
+    overflow: hidden;
+}
+.section3 .tit h1{
+    font-size: 32px;
+    margin: 0;
+    color: #fff;
+    line-height: initial;
+    overflow: hidden;
+    text-align: center;
+}
+.section3 .tit h3{
+    font-size: 20px;
+    margin: 15px 0 0 0;
+    color: #fff;
+    overflow: hidden;
+    line-height: 1.6;
+    text-align: center;
+}
+.section3 .center{
+    overflow: hidden;
+    margin: 40px 0 0 0;
+}
+.section3 .center ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section3 .center ul li{
+    width: 25%;
+    text-align: center;
+    position: relative;
+    overflow: hidden;
+}
+.section3 .center ul li h1{
+    overflow: hidden;
+    font-size: 72px;
+    color: #fff;
+    margin: 0 0 10px 0;
+    font-weight: bold;
+}
+.section3 .center ul li span{
+    position: absolute;
+    top: 0;
+    left: 65%;
+    color: #fff;
+    overflow: hidden;
+    line-height: 1.1;
+    font-size: 72px;
+    font-weight: bold;
+}
+.section3 .center ul li h3{
+    overflow: hidden;
+    font-size: 20px;
+    color: #fff;
+    line-height: initial;
+    text-align: center;
+    margin: 15px 0 0 0;
+}
+.section3 .center ul li:nth-child(1) h1{
+    padding-left: 76px;
+    text-align: left;
+}
+.section3 .center ul li:nth-child(1) span{
+    left: 57%;
+}
+.section3 .center ul li:nth-child(3) h1{
+    padding-left: 32px;
+    text-align: left;
+}
+.section3 .center ul li:nth-child(3) span{
+    left: 71%;
+}
+.section3 .center ul li:nth-child(4) h1{
+    padding-left: 54px;
+    text-align: left;
+}
+.section3 .center ul li:nth-child(4) span{
+    left: 65%;
+}
+.section4{
+    overflow: hidden;
+    padding: 50px 0 60px;
+    position: relative;
+}
+.section4 .tit{
+    overflow: hidden;
+}
+.section4 .tit img{
+    width: 100%;
+    height: auto;
+}
+.section4 .center{
+    overflow: hidden;
+    position: relative;
+    margin: 10px 0 0 0;
+    -webkit-box-shadow: 0 10px 10px #ccc;
+    -moz-box-shadow: 0 10px 10px #ccc;
+    box-shadow: 0 0 10px #ccc;
+    border-bottom: 7px solid #00205b;
+    -webkit-border-radius: 1px;
+    -moz-border-radius: 1px;
+    border-radius: 1px;
+}
+.section4 .center .sectionLeft{
+    overflow: hidden;
+}
+.section4 .center .sectionLeft img{
+    max-width: 100%;
+    height: auto;
+}
+.section4 .center .sectionRight{
+    overflow: hidden;
+    padding: 100px 60px 50px;
+}
+.section4 .center .sectionRight h1{
+    font-size: 48px;
+    margin: 0;
+    line-height: initial;
+    color: #00205b;
+    overflow: hidden;
+    text-align: center;
+}
+.section4 .center .sectionRight h4{
+    margin: 15px 0 0 0;
+    color: #3a3a3a;
+    overflow: hidden;
+    line-height: 1.6;
+    text-align: justify;
+}
+.section4 .more{
+    overflow: hidden;
+    margin: 40px 0 0 0;
+}
+.section4 .more a{
+    position: relative;
+    display: block;
+    overflow: hidden;
+    width: 240px;
+    line-height: 42px;
+    height: 42px;
+    text-align: center;
+    background: #00205b;
+    color: #fff;
+    margin: auto;
+    font-weight: bold;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.section4 .more a img{
+    height: 15px;
+    margin: 0 0 0 10px;
+}
+.section4 .more a:hover{
+    background: rgba(0,0,0,.8);
+}
+.section5{
+    overflow: hidden;
+    padding: 50px 0 60px 160px;
+    position: relative;
+    background: url("../images/pic14.png") no-repeat;
+    background-size: 100% 100%;
+}
+.section5 .sectionLeft{
+    overflow: hidden;
+    position: relative;
+    width: 25%;
+    padding: 230px 0 0 0;
+}
+.section5 .sectionLeft h1{
+    font-size: 58px;
+    margin: 0 0 80px 0;
+    line-height: initial;
+    color: #fff;
+}
+.section5 .sectionLeft a{
+    font-size: 30px;
+    margin: 0;
+    color: #00aeff;
+    text-decoration: underline;
+}
+.section5 .sectionRight{
+    overflow: hidden;
+    position: relative;
+    width: 75%;
+    padding: 0 0 0 100px;
+}
+.section5 .sectionRight .tit{
+    overflow: hidden;
+    padding: 0 160px 0 0;
+}
+.section5 .sectionRight .tit h2{
+    margin: 0;
+    color: #fff;
+}
+.section5 .sectionRight .tit .ul{
+    overflow: hidden;
+    margin: 15px 0 0 0;
+}
+.section5 .sectionRight .tit .ul ul{
+    display: flex;
+    flex-wrap: wrap;
+}
+.section5 .sectionRight .tit .ul ul li{
+    width: 50%;
+}
+.section5 .sectionRight .tit .ul ul li .liL{
+    overflow: hidden;
+    text-align: center;
+    padding: 8px 0;
+    min-width: 115px;
+    background-color: #446eaa;
+    color: #fff;
+}
+.section5 .sectionRight .tit .ul ul li .liL .sp1{
+    font-size: 16px;
+    line-height: 1.1;
+}
+.section5 .sectionRight .tit .ul ul li .liL h1{
+    font-size: 50px;
+    margin: 0;
+    line-height: 1.1;
+}
+.section5 .sectionRight .tit .ul ul li .liL .sp2{
+    font-size: 20px;
+    line-height: 1.1;
+}
+.section5 .sectionRight .tit .ul ul li .liR{
+    overflow: hidden;
+    width: 60%;
+    margin: 22px 0 0 30px;
+}
+.section5 .sectionRight .tit .ul ul li .liR a{
+    font-size: 24px;
+    color: #fff;
+    line-height: 1.6;
+    text-align: justify;
+}
+.section5 .sectionRight .tib{
+    overflow: hidden;
+    position: relative;
+    margin: 90px 0 0 0 ;
+}
+.section5 .sectionRight .tib h2{
+    margin: 0;
+    color: #fff;
+}
+.section5 .sectionRight .tib .picScroll-left{
+    overflow: hidden;
+    margin: 20px 0 0 0;
+}
+.section5 .sectionRight .tib .picScroll-left .hd{
+    position: absolute;
+    top: 0;
+    left: 30%;
+    z-index: 1;
+    width: 75px;
+}
+.section5 .sectionRight .tib .picScroll-left .hd a{
+    display: block;
+    overflow: hidden;
+    width: 50%;
+    height: 38px;
+    cursor:pointer;
+}
+.section5 .sectionRight .tib .picScroll-left .hd .prev{
+    float:left;
+    background: url("../images/pic18.png") no-repeat;
+    background-position:0px 0px;
+    background-size: 75px 100%;
+}
+.section5 .sectionRight .tib .picScroll-left .hd .next{
+    float:right;
+    background: url("../images/pic18.png") no-repeat left 0;
+    background-position:-35px 0px;
+    background-size: 70px 100%;
+}
+.section5 .sectionRight .tib .picScroll-left .bd{
+    overflow: hidden;
+}
+.section5 .sectionRight .tib .picScroll-left .bd .picList{
+    overflow:hidden;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li{
+    width: 33.3333333333%;
+    float:left;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic a{
+    overflow: hidden;
+    display: block;
+    padding: 0 40px 0 0;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+    overflow: hidden;
+    height: 213px;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI img{
+    width: 100%;
+    height: auto;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT{
+    overflow: hidden;
+    min-height: 150px;
+    padding: 10px 15px 20px;
+    background-color: #fff;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT h5{
+    margin: 0;
+    color: #537db5;
+    font-weight: bold;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT h5 span{
+    font-size: 12px;
+    margin: 0 0 0 20px;
+    font-weight: 500;
+}
+.section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT h4{
+    margin: 20px 0 0 0;
+    font-size: 16px;
+    color: #00205b;
+    line-height: 1.1;
+    text-align: justify;
+}
+.section6{
+    overflow: hidden;
+    padding: 50px 160px 0px 160px;
+    position: relative;
+    background-color: #f0f0f0;
+}
+.section6 .sectionLeft{
+    overflow: hidden;
+    width: 50%;
+    padding: 70px 0 0 0;
+}
+.section6 .sectionLeft h1{
+    font-size: 48px;
+    margin: 0;
+    line-height: initial;
+    color: #00205b;
+    overflow: hidden;
+}
+.section6 .sectionLeft .center{
+    overflow: hidden;
+    margin: 45px 0 0 0;
+}
+.section6 .sectionLeft .center p{
+    font-size: 18px;
+    line-height: 1.6;
+    color: #00205b;
+    text-align: justify;
+}
+.section6 .sectionLeft img{
+    max-width: 100%;
+    margin: 10px 0 0 0;
+}
+.section6 .sectionRight{
+    overflow: hidden;
+    width: 50%;
+}
+.section6 .sectionRight .ul{
+    overflow: hidden;
+}
+.section6 .sectionRight .ul ul{
+    float: right;
+    width: 80%;
+}
+.section6 .sectionRight .ul ul li{
+    display: block;
+    overflow: hidden;
+    margin: 0 0 20px 0;
+}
+.section6 .sectionRight .ul ul li input{
+    width: 100%;
+    height: 55px;
+    border: none;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: bold;
+    color: #00205b;
+    background-color: #fff;
+}
+.section6 .sectionRight .ul ul li input:-moz-placeholder {  color: #00205b;  }
+.section6 .sectionRight .ul ul li input::-moz-placeholder {  color: #00205b;  }
+.section6 .sectionRight .ul ul li input:-ms-input-placeholder{  color: #00205b;  }
+.section6 .sectionRight .ul ul li input::-webkit-input-placeholder{  color: #00205b;  }
+.section6 .sectionRight .ul ul li input:-ms-input-placeholder{ color: #00205b; }
+.section6 .sectionRight .ul ul li input::-webkit-input-placeholder{ color: #00205b;}
+.section6 .sectionRight .ul ul li textarea{
+    width: 100%;
+    border: none;
+    font-size: 18px;
+    padding:  20px;
+    font-weight: bold;
+    color: #00205b;
+    background-color: #fff;
+    height: 180px;
+    resize: none;
+}
+.section6 .sectionRight .ul ul li textarea:-moz-placeholder {  color: #00205b;  }
+.section6 .sectionRight .ul ul li textarea::-moz-placeholder {  color: #00205b;  }
+.section6 .sectionRight .ul ul li textarea:-ms-input-placeholder{  color: #00205b;  }
+.section6 .sectionRight .ul ul li textarea::-webkit-input-placeholder{  color: #00205b;  }
+.section6 .sectionRight .ul ul li textarea:-ms-input-placeholder{ color: #00205b; }
+.section6 .sectionRight .ul ul li textarea::-webkit-input-placeholder{ color: #00205b;}
+.section6 .sectionRight .but{
+    overflow: hidden;
+}
+.section6 .sectionRight .but .butL{
+    overflow: hidden;
+    margin: 0 20px 0 0;
+    padding: 5px 10px ;
+    min-width: 240px;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #fff;
+}
+.section6 .sectionRight .but .butL .check{
+    padding: 20px 0 0 0;
+    overflow: hidden;
+}
+.section6 .sectionRight .but .butL .check .bor{
+    float: left;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0 0;
+    border: 1px solid #b8b8b8;
+}
+.section6 .sectionRight .but .butL .check .bor input{
+    display: none;
+}
+.section6 .sectionRight .but .butL .check .bor label{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.section6 .sectionRight .but .butL .check .bor input:checked + label{
+    margin: 0 0 2px 6px ;
+    box-sizing: border-box;
+    width: 6px;
+    height: 12px;
+    transform: rotate(45deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-top: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-color: #00205b;
+}
+.section6 .sectionRight .but .butL .check .txt{
+    overflow: hidden;
+    color: #333;
+    line-height: 20px;
+}
+.section6 .sectionRight .but .butL h6{
+    color: #999;
+    margin: 0;
+    line-height: 1.4;
+}
+.section6 .sectionRight .but .butR{
+    overflow: hidden;
+    width: 70px;
+    height: 70px;
+    line-height: 70px;
+    text-align: center;
+}
+.section6 .sectionRight .but .butR button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    background-color: #446eaa;
+}
+.section6 .sectionRight .but .butR button:hover{
+    background: rgba(0,0,0,.8);
+}
+.section7{
+    overflow: hidden;
+    padding: 260px 0 120px ;
+    position: relative;
+    background-color: #f0f0f0;
+    background: url("../images/pic22.png") no-repeat;
+    background-size: 100% 100% ;
+}
+.section7 h1 {
+    font-size: 48px;
+    margin: 0;
+    color: #fff;
+    line-height: initial;
+    overflow: hidden;
+}
+.section7 p {
+    overflow: hidden;
+    margin: 25px 0 10px 0;
+    font-size: 18px;
+    line-height: 1.6;
+    color: #fff;
+    text-align: justify;
+}
+.section7 .more{
+    overflow: hidden;
+    margin: 35px 0 0 0;
+}
+.section7 .more a{
+    border: 1px solid #f0f0f0;
+    color: #f0f0f0;
+    text-transform: uppercase;
+    display: inline-block;
+    width: 200px;
+    height: 46px;
+    line-height: 44px;
+    position: relative;
+    text-align: center;
+    cursor: pointer;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+}
+.section7 .more a img{
+    height: 15px;
+    margin: 0 0 0 10px;
+}
+.section7 .more a:hover{
+    background: rgba(0,0,0,.8);
+}
+
+.contactBox{
+    overflow: hidden;
+    padding: 50px 0 60px;
+    position: relative;
+}
+.contactBox .ul{
+    overflow: hidden;
+}
+.contactBox .ul ul{}
+.contactBox .ul ul li{
+    display: block;
+    overflow: hidden;
+    height: 380px;
+    display: none;
+}
+.contactBox .ul ul li:first-child{
+    display: block;
+}
+.contactBox .ul ul li img{
+    width: 100%;
+    height: 100%;
+}
+.contactBox .ul2{
+    overflow: hidden;
+    padding: 20px 0;
+}
+.contactBox .ul2 ul{}
+.contactBox .ul2 ul li{
+    display: block;
+    overflow: hidden;
+    padding: 30px 0;
+    cursor: pointer;
+    border-bottom: 1px solid #eeeeee;
+}
+.contactBox .ul2 ul li:last-child{
+    padding-bottom: 0;
+    border-bottom: none;
+}
+.contactBox .ul2 ul li .liLeft{
+    overflow: hidden;
+    width: 50%;
+}
+.contactBox .ul2 ul li .liLeft h3{
+    color: #012c6a;
+    margin: 0;
+}
+.contactBox .ul2 ul li .liLeft .h3{
+    font-weight: bold;
+    margin: 0 0 10px 0;
+}
+.contactBox .ul2 ul .this .liLeft h3{
+    color: #0144b3;
+}
+.contactBox .ul2 ul li .liRight {
+    overflow: hidden;
+    width: 50%;
+}
+
+.contactBox .ul2 ul li .liRight h4{
+    overflow: hidden;
+    font-size: 16px;
+    color: #333333;
+    margin: 0;
+}
+.contactBox .ul2 ul li .liRight span{
+    display: block;
+    overflow: hidden;
+    line-height: 1.8;
+}
+.contactBox .ul2 ul li .liRight .sp1{
+    float: left;
+    min-width: 65px;
+    width: 25%;
+}
+.contactBox .ul2 ul li .liRight .sp2{
+    float: left;
+    width: 75%;
+}
+.contactBox2{
+    overflow: hidden;
+    padding: 50px 0 60px;
+    position: relative;
+    background-color: #eeeeee;
+}
+.contactBox2 h3{
+    color: #333333;
+    overflow: hidden;
+    text-align: center;
+    margin: 0;
+}
+.contactBox2 .ul2{
+    overflow: hidden;
+}
+.contactBox2 .ul2 ul{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+.contactBox2 .ul2 ul li{
+    width: 48.5%;
+    margin: 30px 0 0px 0;
+}
+.contactBox2 .ul2 ul li:last-child{
+    width: 100%;
+}
+.contactBox2 .ul2 ul li h4{
+    font-size: 16px;
+    color: #012c6a;
+    margin: 0 0 10px 0;
+}
+.contactBox2 .ul2 ul li input{
+    width: 100%;
+    height: 55px;
+    font-size: 18px;
+    padding: 0 20px;
+    font-weight: bold;
+    color: #00205b;
+    background-color: #fff;
+    border: 2px solid #cacbcc;
+}
+.contactBox2 .ul2 ul li input:-moz-placeholder {  color: #00205b;  }
+.contactBox2 .ul2 ul li input::-moz-placeholder {  color: #00205b;  }
+.contactBox2 .ul2 ul li input:-ms-input-placeholder{  color: #00205b;  }
+.contactBox2 .ul2 ul li input::-webkit-input-placeholder{  color: #00205b;  }
+.contactBox2 .ul2 ul li input:-ms-input-placeholder{ color: #00205b; }
+.contactBox2 .ul2 ul li input::-webkit-input-placeholder{ color: #00205b;}
+.contactBox2 .ul2 ul li textarea{
+    width: 100%;
+    font-size: 18px;
+    padding:  20px;
+    font-weight: bold;
+    color: #00205b;
+    background-color: #fff;
+    height: 280px;
+    resize: none;
+    border: 2px solid #cacbcc;
+}
+.contactBox2 .ul2 ul li textarea:-moz-placeholder {  color: #00205b;  }
+.contactBox2 .ul2 ul li textarea::-moz-placeholder {  color: #00205b;  }
+.contactBox2 .ul2 ul li textarea:-ms-input-placeholder{  color: #00205b;  }
+.contactBox2 .ul2 ul li textarea::-webkit-input-placeholder{  color: #00205b;  }
+.contactBox2 .ul2 ul li textarea:-ms-input-placeholder{ color: #00205b; }
+.contactBox2 .ul2 ul li textarea::-webkit-input-placeholder{ color: #00205b;}
+.contactBox2 .but{
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.contactBox2 .but .butL{
+    overflow: hidden;
+    margin: 0 auto 0;
+    padding: 5px 10px ;
+    min-width: 310px;
+    max-width: 310px;
+    border: 1px solid #dedede;
+    -webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+    background-color: #f9f9f9;
+}
+.contactBox2 .but .butL .check{
+    padding: 10px 10px 0 0;
+    overflow: hidden;
+}
+.contactBox2 .but .butL .check .bor{
+    float: left;
+    overflow: hidden;
+    width: 20px;
+    height: 20px;
+    margin: 0px 5px 0 0;
+    border: 1px solid #b8b8b8;
+}
+.contactBox2 .but .butL .check .bor input{
+    display: none;
+}
+.contactBox2 .but .butL .check .bor label{
+    width: 100%;
+    height: 100%;
+    cursor: pointer;
+}
+.contactBox2 .but .butL .check .bor input:checked + label{
+    margin: 0 0 2px 6px ;
+    box-sizing: border-box;
+    width: 6px;
+    height: 12px;
+    transform: rotate(45deg);
+    border-width: 2px;
+    border-style: solid;
+    border-color: #fff;
+    border-top: 0;
+    border-left: 0;
+    cursor: pointer;
+    border-color: #00205b;
+}
+.contactBox2 .but .butL .check .txt{
+    overflow: hidden;
+    color: #333;
+    line-height: 20px;
+}
+.contactBox2 .but .butL h6{
+    color: #999;
+    margin: 0;
+    line-height: 1.4;
+}
+.contactBox2 .but .butR{
+    overflow: hidden;
+    width: 480px;
+    height: 50px;
+    line-height: 50px;
+    margin: 20px auto 0;
+    text-align: center;
+}
+.contactBox2 .but .butR button{
+    width: 100%;
+    height: 100%;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+    background-color: #012c6a;
+}
+.contactBox2 .but .butR button:hover{
+    background: rgba(0,0,0,.8);
+}
+
+.groupBox{
+    overflow: hidden;
+    padding: 100px 0 80px;
+    position: relative;
+}
+.groupBox .row{
+    margin: 0 -40px;
+}
+.groupBox .list{
+    padding: 0 40px;
+}
+.groupBox .list .spI{
+    overflow: hidden;
+    height: 214px;
+    text-align: center;
+    -webkit-box-shadow: 0 2px 2px 2px #eee;
+    -moz-box-shadow: 0 2px 2px 2px #eee;
+    box-shadow: 0 2px 2px 2px #eee;
+}
+.groupBox .list .spI img{
+    max-width: 100%;
+    max-height: 100%;
+    height: auto;
+}
+.groupBox .list .spT{
+    overflow: hidden;
+}
+.groupBox .list .spT a{
+    display: block;
+    overflow: hidden;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    color: #fff;
+    font-size: 16px;
+    background-color: #012c6a;
+}
+.groupBox .list .spT a:hover{
+    background: rgba(0,0,0,.8);
+}
+.newsBox{
+    overflow: hidden;
+    padding: 100px 160px 80px;
+    position: relative;
+}
+.newsBox .sectionLeft{
+    overflow: hidden;
+    width: 80%;
+    padding: 0 60px 0 0;
+    position: relative;
+}
+.newsBox .sectionLeft ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -25px;
+}
+.newsBox .sectionLeft ul li{
+    width: 50%;
+    padding: 0 25px;
+    margin: 0 0 70px 0;
+}
+.newsBox .sectionLeft ul li .li{
+    overflow: hidden;
+}
+.newsBox .sectionLeft ul li .li .liI{
+    overflow: hidden;
+    height: 433px;
+}
+.newsBox .sectionLeft ul li .li .liI img{
+    width: 100%;
+    height: auto;
+}
+.newsBox .sectionLeft ul li .li .liT{
+    overflow: hidden;
+    padding: 20px 0 0 0;
+}
+.newsBox .sectionLeft ul li .li .liT h3{
+    font-size: 20px;
+    color: #333;
+    margin: 0;
+    font-weight: bold;
+}
+.newsBox .sectionLeft ul li .li .liT p{
+    font-size: 16px;
+    text-align: justify;
+    overflow: hidden;
+    color: #333;
+    line-height: 1.6;
+    margin: 10px 0;
+}
+.newsBox .sectionLeft ul li .li .liT h4{
+    margin: 0;
+    font-size: 16px;
+    color: #012c6a;
+}
+.newsBox .sectionLeft ul li .li .liT:hover h3{
+    color: #012c6a;
+}
+
+
+
+
+
+.newsSectionRight{
+    overflow: hidden;
+    position: relative;
+    width: 20%;
+}
+.newsSectionRight ul{}
+.newsSectionRight ul li{
+    display: block;
+    overflow: hidden;
+    padding: 25px;
+    background-color: #eeeeee;
+    margin: 0 0 20px 0;
+}
+.newsSectionRight ul li h3{
+    color: #333333;
+    margin: 0;
+    font-size: 20px;
+    padding: 0 0 15px 0;
+    border-bottom: 2px solid #012c6a;
+}
+.newsSectionRight ul li dl{
+    margin: 15px 0 0 0;
+}
+.newsSectionRight ul li dl dd{
+    overflow: hidden;
+    margin: 10px 0 0 0;
+}
+.newsSectionRight ul li dl dd a{
+    display: block;
+    overflow: hidden;
+    color: #666666;
+    font-size: 16px;
+}
+.newsSectionRight ul li dl dd a:hover{
+    color: #012c6a;
+}
+.newsDetail{}
+.newsDetail .sectionLeft ul {
+    margin: 0 ;
+}
+.newsDetail .sectionLeft ul li {
+    width: 100%;
+    padding: 0 ;
+    margin: 0 0 70px 0;
+}
+.newsDetail .sectionLeft ul li .li .liI{
+    height: auto!important;
+}
+.newsDetail .sectionLeft ul li .li .liT {
+    padding: 30px 0 0 0;
+}
+.newsDetail .sectionLeft ul li .li .liT p {
+    margin: 50px 0 0 0;
+}
+
+
+@media screen and (max-width:1680px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 361px;
+    }
+    .section2 .center ul li .liT{
+        height: 205px;
+    }
+    .section2 .center ul li .liB h3{
+        margin: 5% 0 10px 0;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR a{
+        font-size: 20px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 177px;
+    }
+    .navBox .nav-ul .subnav li {
+        margin: 0 5.9% 0 0;
+    }
+}
+@media screen and (max-width:1600px) {
+    .newsBox {
+        padding: 100px 50px 80px;
+    }
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 403px;
+    }
+    .navBox .navTOP{
+        padding: 20px 50px 15px;
+    }
+    .navBox .nav-ul{
+        padding: 0 50px;
+    }
+    .searchForm{
+        padding: 10px 0 10px 50px;
+    }
+    .section .carousel-control.left{
+        left: 50px;
+    }
+    .section .carousel-control.right {
+        right: 50px;
+    }
+    .section .carousel-caption {
+        padding: 0 120px;
+        font-size: 42px;
+    }
+    .section2 .center ul {
+        padding: 0 40px;
+    }
+    .section2 .center ul li .liT{
+        height: 208px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 166px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT{
+        min-height: 167px;
+    }
+    .section6 {
+        padding: 50px 50px 0px 50px;
+    }
+    .navBox .nav-ul .subnav li {
+        margin: 0 6.6% 0 0;
+    }
+}
+@media screen and (max-width:1440px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 355px;
+    }
+    .section2 .center ul li .liT{
+        height: 184px;
+    }
+    .section2 .center ul li .liB h3{
+        margin: 2% 0 10px 0;
+    }
+    .section5 {
+        padding: 50px 0 60px 50px;
+    }
+    .section5 .sectionRight .tit {
+        overflow: hidden;
+        padding: 0 50px 0 0;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR a {
+        font-size: 18px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .hd {
+        left: 35%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 158px;
+    }
+    .navBox .nav-ul .subnav li {
+        margin: 0 5.8% 0 0;
+    }
+
+
+}
+@media screen and (max-width:1366px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 333px;
+    }
+    .navBox .nav-ul .subnav li {
+        margin: 0 5.4% 0 0;
+    }
+    .section2 .center ul li .liT{
+        height: 174px;
+    }
+    .section2 .center ul li .liB a {
+        bottom: 10px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 147px;
+    }
+}
+@media screen and (max-width:1360px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 331px;
+    }
+    .section2 .center ul li .liT{
+        height: 173px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 146px;
+    }
+}
+@media screen and (max-width:1280px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 307px;
+    }
+    .section .carousel-caption {
+        margin-top: 3px;
+        font-size: 36px;
+    }
+    .section2 .center ul li .liT{
+        height: 161px;
+    }
+    .section2 .center ul li .liB h5{
+        overflow: hidden;
+        word-break:break-all;
+        display:-webkit-box;
+        -webkit-line-clamp:2;
+        -webkit-box-orient:vertical;
+    }
+    .navBox .nav-ul .subnav li{
+        margin: 0 4.9% 0 0;
+    }
+
+}
+@media screen and (max-width:1024px) {
+    .ZBanner .spT h1 {
+        font-size: 30px;
+        margin: 0 0 20px 0;
+    }
+    .ZBanner .spT h2 {
+        font-size: 24px;
+    }
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 235px;
+    }
+    .groupBox .list .spI{
+        height: 175px;
+    }
+    .navBox .nav-ul .subnav li a {
+        font-size: 14px;
+    }
+    .section .carousel-caption {
+        margin-top: 8px;
+        font-size: 30px;
+    }
+    .section .buttons {
+        bottom: 15%;
+    }
+    .section2 h1,.section4 .center .sectionRight h1,.section5 .sectionLeft h1,.section6 .sectionLeft h1,.section7 h1{
+        font-size: 36px;
+    }
+    .section2 .center ul li .liT{
+        height: 126px;
+    }
+    .section2 .center ul li .liT h2 {
+        padding: 10px 15px;
+        font-size: 24px;
+        font-weight: bold;
+    }
+    .section2 .center ul li .liB {
+        padding: 15px 15px;
+    }
+    .section2 .center ul li .liB h3{
+        font-size: 18px;
+    }
+    .section2 .center ul li .liB h5{
+        -webkit-line-clamp:1;
+    }
+    .section2 .center ul li .liB a {
+        left: 15px;
+    }
+    .section3 .center ul li h1{
+        font-size: 42px;
+    }
+    .section3 .center ul li span{
+        font-size: 42px;
+    }
+    .section3 .center ul li:nth-child(3) h1{
+        padding-left: 50px;
+        text-align: left;
+    }
+    .section3 .center ul li:nth-child(3) span{
+        left: 67%;
+    }
+    .section3 .center ul li:nth-child(4) h1{
+        padding-left: 62px;
+        text-align: left;
+    }
+    .section3 .center ul li:nth-child(4) span{
+        left: 62%;
+    }
+    .section4 .center .sectionRight {
+        padding: 50px 60px 50px;
+    }
+    .section5 .sectionRight {
+        padding: 0 0 0 50px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR {
+        width: 50%;
+        margin: 22px 0 0 20px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR a{
+        font-size: 14px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .hd {
+        left: 45%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li{
+        width: 50%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 176px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT{
+        min-height: 150px;
+    }
+
+
+
+}
+@media screen and (max-width:768px) {
+    .ZBanner .spT h1 {
+        font-size: 24px;
+        margin: 0 0 20px 0;
+    }
+    .ZBanner .spT h2 {
+        font-size: 18px;
+    }
+    .newsBox .sectionLeft{
+        width: 100%;
+        padding: 0;
+    }
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 231px;
+    }
+    .newsSectionRight{
+        width: 100%;
+    }
+    .groupBox .row {
+        margin: 0 -10px;
+    }
+    .groupBox .list{
+        width: 25%;
+        padding: 0 10px;
+    }
+    .groupBox .list .spI {
+        height: 165px;
+    }
+    .navBox .nav-ul .subnav li {
+        margin: 0 1.9% 0 0;
+    }
+    .section .buttons {
+        bottom: 5%;
+    }
+    .section .buttons a {
+        font-size: 14px;
+        width: 160px;
+        height: 50px;
+        line-height: 46px;
+        margin: 0 20px;
+    }
+    .section .carousel-caption {
+        margin-top: 18px;
+        font-size: 18px;
+    }
+    .section2 {
+        padding: 50px 0 40px;
+    }
+    .section2 .center ul li {
+        width: 50%;
+        margin: 0 0 20px 0;
+    }
+    .section2 .center ul li .liT{
+        height: 189px;
+    }
+    .section2 .center ul li .liB h5 {
+        -webkit-line-clamp: 3;
+    }
+    .section2 .center ul li .liB a {
+        bottom: 20px;
+    }
+    .section3 .center ul li:nth-child(1) h1 {
+        padding-left: 54px;
+    }
+    .section3 .center ul li:nth-child(3) h1 {
+        padding-left: 30px;
+    }
+    .section3 .center ul li:nth-child(3) span {
+        left: 71%;
+    }
+    .section3 .center ul li:nth-child(4) h1 {
+        padding-left: 38px;
+    }
+    .section4 .center .sectionLeft{
+        text-align: center;
+        margin: 20px 0 0 0;
+    }
+    .section5 .sectionRight .tit .ul ul li{
+        width: 100%;
+        margin: 0 0 15px 0;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR {
+        width: 60%;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR a {
+        font-size: 18px;
+    }
+    .section5 .sectionRight .tib {
+        margin: 50px 0 0 0;
+    }
+    .section5 .sectionRight .tib .picScroll-left .hd {
+        left: 60%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic a {
+        padding: 0 20px 0 0;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 132px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT{
+        min-height: 184px;
+    }
+    .section6 .sectionRight .ul ul {
+        width: 90%;
+    }
+
+}
+@media screen and (max-width:767px) {
+    .ZBanner .spT {
+        top: 25%;
+    }
+    .ZBanner .spT h1 {
+        font-size: 16px;
+        margin: 0 0 10px 0;
+    }
+    .ZBanner .spT h2 {
+        font-size: 14px;
+    }
+    .newsDetail .sectionLeft ul li .li .liT {
+        padding: 20px 0 0 0;
+    }
+    .newsDetail .sectionLeft ul li .li .liT p {
+        margin: 20px 0 0 0;
+    }
+    .newsBox {
+        padding: 30px 15px 10px;
+    }
+    .newsBox .sectionLeft ul {
+        margin: 0;
+    }
+    .newsBox .sectionLeft ul li {
+        width: 100%;
+        padding: 0;
+        margin: 0 0 20px 0;
+    }
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 288px;
+    }
+    .newsBox .sectionLeft ul li .li .liT h3{
+        font-size: 18px;
+    }
+    .newsBox .sectionLeft ul li .li .liT p{
+        font-size: 14px;
+    }
+    .newsBox .sectionLeft ul li .li .liT h4{
+        font-size: 14px;
+    }
+    .newsSectionRight ul li {
+        padding: 20px;
+    }
+    .newsSectionRight ul li h3{
+        font-size: 18px;
+    }
+    .newsSectionRight ul li dl dd a {
+        font-size: 14px;
+    }
+    .groupBox {
+        padding: 30px 0 16px;
+    }
+    .groupBox .row {
+        margin: 0 -7px;
+    }
+    .groupBox .list{
+        width: 50%;
+        padding: 0 7px;
+        margin: 0 0 14px 0;
+    }
+    .groupBox .list .spI {
+        height: 185px;
+    }
+    .contactBox {
+        padding: 30px 0 10px;
+    }
+    .contactBox .ul ul li{
+        height: 300px;
+    }
+    .contactBox .ul2 ul li {
+        padding: 15px 0;
+    }
+    .contactBox .ul2 ul li .liLeft,.contactBox .ul2 ul li .liRight{
+        width: 100%;
+    }
+    .contactBox .ul2 ul li .liRight{
+        margin: 10px 0 0 0;
+    }
+    .contactBox .ul2 ul li .liLeft h3{
+        font-size: 18px;
+    }
+    .contactBox2 {
+        padding: 30px 0 60px;
+    }
+    .contactBox2 h3 {
+        font-size: 18px;
+    }
+    .contactBox2 .ul2 ul li{
+        width: 100%;
+        margin: 15px 0 0px 0;
+    }
+    .contactBox2 .ul2 ul li h4{
+        font-size: 14px;
+    }
+    .contactBox2 .ul2 ul li input{
+        font-size: 14px;
+        height: 45px;
+    }
+    .contactBox2 .but .butR {
+        width: 100%;
+    }
+
+    #welcome button.close{
+        width: 30px;
+        height: 30px;
+        font-size: 18px;
+        line-height: 30px;
+    }
+    #welcome button.close span{
+        font-size: 18px;
+    }
+    .clearfix{
+        height: 35px;
+    }
+    .header{position:fixed;height:50px;background:white;z-index: 99999;padding-top: 5px;width: 100%;border-bottom: 1px solid #ccc;top: 0;}
+    .header h3{color: #2c2c2c;margin: 0;line-height: 50px}
+    .header .logo{padding:7px 0 0 15px;position: relative;z-index: 9999;float: left;}
+    .header .logo img{display:block;height: 30px;}
+    .header .search span{display:none;}
+    .dl-menuwrapper{
+        margin-bottom: 0;
+    }
+    .dl-menuwrapper button {
+        position: absolute;
+        right: 0;
+        z-index: 9999;
+        background: white url("../images/menu.png") no-repeat scroll center center / 20px auto;
+        border-bottom: 1px solid #ccc
+    }
+    .dl-menuwrapper button:hover,.dl-menuwrapper button.dl-active{
+        background-color: white;
+    }
+    .dl-menuwrapper ul {
+        background: #00205b none repeat scroll 0 0;
+    }
+    .dl-menuwrapper li a {
+        border-top: 1px solid #093079;
+        border-bottom: none;
+        padding: 9px 20px;
+        font-size: 14px;
+    }
+    .dl-menuwrapper li.dl-back:after{
+        top: 2px;
+    }
+    .header .navT{
+        overflow: hidden;
+        position: absolute;
+        top: 0;
+        right: 55px;
+        line-height: 50px;
+        z-index: 9999;
+    }
+    .header .navT ul{}
+    .header .navT ul li{
+        display: inline-block;
+        color: #333;
+    }
+    .header .navT ul li a{
+        color: #333;
+    }
+    .header .navT ul li .clickSearch{
+        margin: 0 10px 0 0;
+    }
+    .searchForm {
+        top: 50px;
+        padding: 10px 15px 10px 15px;
+    }
+    .headerH{
+        overflow: hidden;
+        position: relative;
+        height: 50px;
+    }
+    .section .carousel-control{
+        display: none;
+    }
+    .section .carousel-caption {
+        top: 30%;
+        margin-top: -0px;
+        padding: 0 15px;
+        font-size: 18px;
+    }
+    .section .buttons2{
+        position: relative;
+        padding: 10px 15px 20px;
+    }
+    .section .buttons2 a {
+        display: block;
+        font-size: 14px;
+        width: 100%;
+        height: 50px;
+        line-height: 50px;
+        margin: 10px 0 0  0px;
+        border: none;
+        background: rgba(0,17,54,0.9)!important;
+    }
+    .section2 {
+        padding: 10px 0 10px;
+    }
+    .section2 h1, .section4 .center .sectionRight h1, .section5 .sectionLeft h1, .section6 .sectionLeft h1, .section7 h1{
+        font-size: 18px;
+    }
+    .section2 .center {
+        margin: 20px 0 0 0;
+    }
+    .section2 .center ul {
+        padding: 0 5px;
+    }
+    .section2 .center ul li{
+        width: 100%;
+    }
+    .section2 .center ul li .liT{
+        height: 224px;
+    }
+    .section2 .center ul li .liT h2 {
+        padding: 15px 25px;
+    }
+    .section2 .center ul li .liB h3 {
+        margin: 5% 0 10px 0;
+    }
+    .section2 .center ul li .liB h5 {
+        -webkit-line-clamp: 4;
+    }
+    .section3 {
+        overflow: hidden;
+        padding: 30px 0 30px;
+        background-color: #012c6a;
+        position: relative;
+    }
+    .section3 .tit h1 {
+        font-size: 18px;
+    }
+    .section3 .tit h3 {
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    }
+    .section3 .center ul li h1,.section3 .center ul li span {
+        font-size: 24px;
+    }
+    .section3 .center ul li:nth-child(1) h1 {
+        padding-left: 26px;
+    }
+    .section3 .center ul li:nth-child(1) span {
+        left: 58%;
+    }
+    .section3 .center ul li:nth-child(3) h1 {
+        padding-left: 10px;
+    }
+    .section3 .center ul li:nth-child(4) h1 {
+        padding-left: 18px;
+    }
+    .section3 .center ul li:nth-child(4) span {
+        left: 64%;
+    }
+    .section3 .center ul li h3 {
+        font-size: 14px;
+        margin: 10px 0 0 0;
+    }
+    .section4 {
+        padding: 30px 0 30px;
+        position: relative;
+    }
+    .section4 .center .sectionLeft {
+        padding: 0 15px;
+    }
+    .section4 .center .sectionRight {
+        padding: 30px 15px 30px;
+    }
+    .section4 .more {
+        margin:20px 0 0 0;
+    }
+    .section5 {
+        padding: 30px 15px;
+    }
+    .section5 .sectionLeft{
+        width: 100%;
+        padding: 0 0 0 0;
+    }
+    .section5 .sectionLeft h1 {
+        margin: 0 0 10px 0;
+    }
+    .section5 .sectionLeft a {
+        font-size: 14px;
+    }
+    .section5 .sectionRight {
+        width: 100%;
+        margin: 20px 0 0 0;
+        padding: 0 0 0 0px;
+    }
+    .section5 .sectionRight .tit h2{
+        font-size: 18px;
+    }
+    .section5 .sectionRight .tit {
+        padding: 0 0 0 0;
+    }
+    .section5 .sectionRight .tit .ul ul li .liL .sp1{
+        font-size: 12px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liL h1 {
+        font-size: 20px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liL .sp2{
+        font-size: 14px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liL {
+        min-width: 95px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR {
+        width: 70%;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR a {
+        font-size: 14px;
+    }
+    .section5 .sectionRight .tib {
+        margin: 0px 0 0 0;
+    }
+    .section5 .sectionRight .tib h2 {
+        font-size: 18px;
+        line-height: 38px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .hd {
+        left: auto;
+        right: 0;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic a {
+        padding: 0 5px ;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 106px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT {
+        min-height: 121px;
+        padding: 10px 5px 10px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT h5{
+        font-size: 12px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT h4 {
+        margin: 10px 0 0 0;
+        font-size: 12px;
+    }
+    .section6 {
+        padding: 30px 15px;
+    }
+    .section6 .sectionLeft{
+        width: 100%;
+        padding: 0px 0 0 0;
+    }
+    .section6 .sectionLeft .center {
+        margin: 15px 0 0 0;
+    }
+    .section6 .sectionLeft .center p {
+        font-size: 14px;
+    }
+    .section6 .sectionRight {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .section6 .sectionRight .ul ul {
+        width: 100%;
+    }
+    .section6 .sectionRight .ul ul li {
+        margin: 0 0 15px 0;
+    }
+    .section6 .sectionRight .ul ul li input{
+        font-size: 14px;
+        height: 45px;
+    }
+    .section6 .sectionRight .ul ul li textarea {
+        font-size: 14px;
+    }
+    .section7 {
+        padding: 100px 0 30px;
+    }
+    .section7 p {
+        margin: 15px 0 10px 0;
+        font-size: 14px;
+    }
+    .section7 .more {
+        margin: 20px 0 0 0;
+    }
+    .footer {
+        padding: 30px 0 30px 0;
+    }
+    .footer .tit .more {
+        width: 100%;
+        margin: 20px 0 0 0;
+    }
+    .footer .tib h5 a ,.footer .tib h5 span{
+        width: 100%;
+        display: block;
+        margin: 0 0px 0 0;
+    }
+
+
+
+}
+@media screen and (max-width:414px) {
+
+}
+@media screen and (max-width:375px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 258px;
+    }
+    .groupBox .list .spI {
+        height: 165px;
+    }
+    .section2 .center ul li .liT{
+        height: 201px;
+    }
+    .section2 .center ul li .liB h5 {
+        -webkit-line-clamp: 3;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR {
+        width: 66%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 95px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT {
+        min-height: 134px;
+    }
+    .section3 .center ul li h1,.section3 .center ul li span {
+        font-size: 20px;
+    }
+}
+@media screen and (max-width:360px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 247px;
+    }
+    .groupBox .list .spI {
+        height: 158px;
+    }
+    .section2 .center ul li .liT{
+        height: 193px;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR {
+        width: 65%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 90px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT {
+        min-height: 134px;
+    }
+}
+@media screen and (max-width:320px) {
+    .newsBox .sectionLeft ul li .li .liI{
+        height: 217px;
+    }
+    .groupBox .list .spI {
+        height: 138px;
+    }
+    .section2 .center ul li .liT{
+        height: 169px;
+    }
+    .section2 .center ul li .liB h5 {
+        -webkit-line-clamp: 2;
+    }
+    .section5 .sectionRight .tit .ul ul li .liR {
+        width: 60%;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picI{
+        height: 79px;
+    }
+    .section5 .sectionRight .tib .picScroll-left .bd ul li .pic .picT {
+        min-height: 173px;
+    }
+    .section6 .sectionRight .but .butL {
+        min-width: 200px;
+    }
+    .section3 .center ul li h1,.section3 .center ul li span {
+        font-size: 14px;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

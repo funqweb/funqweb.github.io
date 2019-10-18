@@ -1,0 +1,1272 @@
+.btn-search {
+    background-color: transparent;
+    border:none;
+    color: #666;
+    cursor: pointer;
+    line-height: 60px;
+    font-size: 1.3em
+}
+.button-ex{
+    text-align: center;
+    border:2px solid #fff;
+    color: #f0f0f0;
+    font-size: 1.2em;
+    text-transform:uppercase;
+    display: inline-block;
+    width:15em;
+    height: 3.3em;
+    line-height: 3.3em;
+    position: relative;
+    padding: 0 3em;
+    border-radius: 3px;
+    cursor: pointer;
+
+}
+
+a:focus,a:hover{
+    text-decoration: none;
+}
+.button-ex:hover{
+    background: rgba(0,0,0,0.9);
+    color: #f0F0F0
+}
+.button-ex i{
+    display: inline-block;
+    position: absolute;
+    top: 50%;
+    left: auto;
+    right: 2em;
+    transform:translate(0,-50%);
+}
+.btn-com{
+    background: rgba(0,17,54,0.9);
+}
+.btn-svc{
+    background: rgba(0,32,91,0.8);
+}
+
+
+.navbar-brand {
+    float: left;
+    height: 50px;
+    padding: 5px 5px;
+    font-size: 18px;
+    line-height: 20px;
+}
+.navbar-default {
+    background-color: #fff;
+    border-color: #fff;
+    margin-bottom: 0
+}
+.navbar-default .navbar-nav>.active>a, .navbar-default .navbar-nav>.active>a:focus, .navbar-default .navbar-nav>.active>a:hover {
+    color: #fff;
+    background-color:transparent
+}
+.navbar-nav .active{
+    border-bottom: 2px solid #000
+}
+.navbar-nav>li>a {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbar-nav>li>a {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 6px 4px 0px;
+    color:#666;
+    font-weight: 500;
+}
+
+.blue{
+    background: #00205b;
+    border-radius: 50%;
+}
+.navbar-form{
+    margin: 0
+}
+.blue>a{
+    color: #f0f0f0
+}
+.gray{
+    background: #f0f0f0;
+    border-radius: 50%;
+}
+.white{
+    background: #fff;
+    border-radius: 50%;
+    border:1px solid #aaa;
+}
+.menu{
+    background: #f0f0f0;
+    cursor: default;
+}
+
+a {
+    color: #000;
+    text-decoration: none;
+}
+.nav-tabs {
+    border:none;
+}
+#menu li.active>a, #menu li.active>a:focus, #menu li.active>a:hover {
+    cursor: default;
+    border: 2px solid #fff;
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+    border-bottom-color: transparent;
+}
+#menu li a:focus, #menu li a:hover {
+    /*cursor: #000;*/
+    background-color: transparent;
+    border-bottom: 2px solid #000;
+    border-left: none;
+    border-right: none;
+    border-top: none;
+}
+#menu li{
+    padding:0 20px
+}
+#menu li>a {
+    line-height: 1.42857143;
+    border: 1px solid transparent;
+}
+.first{
+    padding-right:30px
+}
+.carousel-caption {
+    text-transform:uppercase;
+}
+
+.office_title{
+    color:#1b3567;
+    margin-top: 25px;
+    margin-bottom: 15px
+}
+
+.btn_com{
+    width: 200px;
+    height: 50px;
+    padding: 0
+}
+@media (min-width: 160px){
+    .knowimg1{margin-right: 0px ;margin-left:0;}
+    .navbar-default .navbar-brand{
+        width:70%
+    }
+    .sec_event{
+        margin-top:10px;
+    }
+    .account{
+        margin-top:20px;
+    }
+    .btn-us{background: #537db5}
+    .carousel-caption{
+        bottom:27%
+    }
+    #xs-newsimg{
+        /*background: #012c6a url('/image/news.png') no-repeat;*/
+        background-size: cover
+    }
+    #hiring {padding-top: 0;    padding-bottom: 0;}
+    .nav>li>a {
+        padding: 10px 15px;
+    }
+    .carousel-caption{font-size: 12px}
+}
+
+
+@media (min-width: 120px){
+    .fix_height{padding-top:50px;}
+    #earth{margin-right: 4px;}
+
+    .desc{
+        margin-top: 18px;
+    }
+    .number{
+        font-size: 45px;
+        margin-bottom: 0;
+        margin-top:25px;
+    }
+    #help{
+        background: #012c6a;
+        color: #fff;
+        margin-top:30px;
+    }
+    .month{
+        font-size: 12px;
+        transform: scale(0.8)
+    }
+    .year{
+        font-size: 12px;
+        transform: scale(0.9);
+        font-weight: bold
+    }
+    .imgfoot{
+        height: 80px;
+        padding-top:10px;
+    }
+    #office{font-size: 8px}
+    .btnimg{
+        display: inline-block;
+        border:1px solid #fff;
+        width: 30px;
+        height: 30px;
+        line-height: 30px;
+        cursor: pointer;
+        text-align: center;
+        font-size:12px
+    }
+
+    .btnimg:hover{
+        display: inline-block;
+        border:1px solid #fff;
+        width: 30px;
+        height: 30px;
+        cursor: pointer;
+        background: #000
+    }
+    .event_title{font-size: 4rem ;}
+    .event_sub_title{color:#f0f0f0;font-size: 20px;}
+    #complaint{background: #f0f0f0; padding-top: 30px;}
+    #event_detail{width: 100%;z-index: 1;top: 0;}
+    .imgfoot{
+        border-right: 2px solid #ccc;
+        border-left:  2px solid #ccc;
+        border-bottom: 2px solid #ccc;
+        border-radius: 4px;
+        box-sizing: border-box;
+    }
+    #imglist li{    background: #fff;    width: 250px;
+        margin-right: 20px;    min-height: 1px;
+        position: relative;    float: left;
+        display: inline;
+    }
+    #carousel_ul li{float: left; margin-right:15px; display:inline;}
+    #carousel_container{position:relative;height: 300px; overflow:hidden;}
+    .title{    font-size: 12px;}
+    .date{font-size:12px;}
+    #viewall{    margin-top:40px;}
+    #viewall a{    color:#0199e3;    text-decoration: underline;    font-size: 1.6em;}
+    #hiring_text{line-height: 2.2em;width: 80%}
+    #hiring h1{padding-top:70px;}
+    .privacy,.copy{color:#f0f0f0; font-size: 1em;}
+    .copy{margin-top:10px; font-size: 12px}
+    .privacy{margin-top: 60px;font-size: 12px}
+    #know_more{margin-top:20px;}
+    .navbar-brand>img{width: 100%;max-height: 100%}
+}
+
+@media (min-width: 360px){
+    #earth{margin-right: 10px;}
+    .day{font-size: 24px;}
+    .calendar>p{
+        line-height: 10px;
+        height: 10px;
+    }
+    #office{font-size:9px;}
+}
+@media (min-width: 414px){
+    #office{font-size: 10px}
+}
+@media (min-width: 480px){
+    .navbar-default .navbar-brand{
+        width:auto
+    }
+    #office{font-size: 12px}
+
+}
+
+#welcome button.close{
+    width: 30px;
+    height: 30px;
+    font-size: 18px;
+    line-height: 30px;
+}
+#welcome button.close span{
+    font-size: 18px;
+}
+
+@media screen and (min-width: 768px){
+    .clearfix{
+        height: 35px;
+    }
+    .fix_height{padding-top:116px;}
+    .navbar-nav>li>a {
+        line-height: 60px;
+    }
+    .nav>li>a {
+        position: relative;
+        display: block;
+        padding: 6px 4px 0px;
+        color:#666;
+        font-weight: 500;
+    }
+    header>nav{height: 80px}
+    .navbar>.container-fluid .navbar-brand{width: 60%;padding-top: 9px}
+    header>.collapse{margin-top:0px;}
+    .lang>li{width: 30px;height: 30px;line-height: 30px}
+    .lang{margin-top: 25px}
+    .mg60{margin:auto 36px;}
+    .carousel-caption{
+        padding-bottom: 64px;
+        font-size: 52px;
+    }
+    .lang>li{width: 30px;height: 30px;line-height: 30px}
+    .lang{margin-top: 25px}
+    #office{font-size: 10px}
+    #fourOffice{padding-left:5%;padding-right: 5%}
+    #know h1{color:#012c6a; margin-top: 20px}
+    #know p{font-size: 12px}
+    .btn_more{
+        width: 200px;
+        height: 40px !important;
+        line-height: 40px !important;
+    }
+    .calendar{
+        width: 80px;
+        height: 70px;
+    }
+
+
+    #welcome .modal-dialog {
+        width: 700px;
+        top: 50%;
+        margin: -230px auto 0;
+    }
+    #left_part img{height:460px;width: 100%;}
+    .carousel-caption{
+        bottom:24%
+    }
+    #buttons{
+        top: 70%;
+        position:absolute;
+        width:100%
+    }
+    .btn-svc{
+        margin:auto 1em
+    }
+    .carousel-caption{
+        font-size: 24px;
+    }
+    .btn-us{
+        background: rgba(255,255,255,0);
+    }
+    #collapse-1 li{
+        margin-right: 10px;
+    }
+    .account{
+        margin-top: 50px;
+    }
+    .newsimg{
+        /*background: url('/image/news.png') no-repeat;*/
+        background-size: cover
+    }
+    /*   #event:before{
+           content: "";
+           background: rgba(1,44,106,0.9);
+           width: 100%;
+           height: 100%;
+           opacity: 0.8;
+           position: absolute;
+           top: 0;
+           left: 0;
+           z-index: 1;
+       }*/
+
+    .clear_fix{
+        display: none
+    }
+    #employee,#years{
+        padding-left: 0
+    }
+    #cases,#courses{
+        padding-right: 0px
+    }
+
+    #employee .description{
+        padding-left: 10px
+    }
+
+    .lang{
+        list-style: none;
+        padding: 0;
+        float: left;
+        margin: 12px  0 0 0;
+        font-size: 0.5rem;
+        display: table;
+        content: " ";
+    }
+    .lang>li {
+        float: left;
+        width:26px;height:26px;line-height: 26px;
+        display:table-cell
+    }
+    .lang>li>a{
+        line-height: 26px;
+    }
+    .carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+        margin-top: -40px;
+    }
+
+    .glyphicon-chevron-right:before {
+        /*content: url("../image/right_arrow.png");*/
+    }
+    .glyphicon-chevron-left:before {
+        /*content: url("../image/left_arrow.png");*/
+    }
+
+    #event_detail{
+        position: absolute;
+        height: 574px;
+    }
+    #mask{
+        height: 574px;
+    }
+    .event_title{
+        margin-top: 30%;
+    }
+    .day{font-size: 30px}
+    #hiring {padding-top: 10%;padding-bottom: 10%;}
+    .copy,.privacy{text-align: left;}
+
+}
+@media(min-width: 900px){
+    #japan_office {
+        font-size: 33px;
+    }
+    #hk_office {
+        font-size: 28.7px;
+    }
+    #singapor_office {
+        font-size: 30px;
+    }
+    #china_office {
+        font-size: 32.4px;
+    }
+}
+@media (min-width: 992px){
+    .fix_height{padding-top:114px }
+    .knowimg{margin-left: -15px;}
+    #upcoming{padding-top:60px;}
+    #imglist li{width: 270px}
+    header>nav{height: 56px}
+    .navbar>.container-fluid .navbar-brand{width: 90%;padding-top: 6px}
+    header>.collapse{margin-top:0px;}
+    .lang>li{width: 28px;height: 28px;line-height: 28px;font-size: 13px}
+    .lang{margin-top: 12px;}
+    .mg60{margin:auto 72px;}
+    #carousel_ul li{margin-right: 30px}
+    .imgfoot{height: 90px}
+    #complaint {background: #f0f0f0;padding-top: 50px;}
+    #hiring {padding-top: 13%;    padding-bottom: 7%;}
+    .explore{font-size: 13px !important;margin-top: 20px}
+    .btn-svc{
+        margin:auto 2em
+    }
+    .day{font-size: 30px}
+    .sec_event{
+        margin-top:0px;
+    }
+    #welcome_right_part{width: 50%;float: left;margin:30px auto}
+    #welcome .modal-body{padding: 0}
+}
+
+@media (min-width: 992px) and (max-width:1200px){
+    #know{padding:10px 0;}
+    #know h1 {color: #012c6a; margin-top: 40px;font-size: 28px}
+    #know p{font-size: 15px}
+    #office{font-size: 11px}
+    .btn-svc{
+        margin:auto 3em
+    }
+    .carousel-caption{
+        font-size: 30px;
+    }
+    .mg60{
+        margin:auto 60px;
+    }
+    #collapse-1 li{
+        margin-right: 20px;
+    }
+
+    #welcome .modal-dialog {
+        width: 800px;
+        top: 50%;
+        margin: -230px auto 0;
+    }
+    #left_part img{height:460px;width: 100%;}
+}
+
+
+
+
+@media (min-width:1200px) and (max-width:1400px){
+    #office{font-size: 7px}
+    .btn-svc{
+        margin:auto 3em
+    }
+    #collapse-1 li{
+        margin-right: 30px;
+    }
+    .mg60{
+        margin:auto 60px;
+    }
+    #welcome .modal-dialog {
+        width: 1040px;
+        top: 50%;
+        margin: -265px auto 0;
+    }
+    #left_part img{height:530px;width: 100%;}
+    .carousel-caption{
+        font-size: 34px;
+    }
+    #know_more{margin-top:80px;}
+    .btn-more{width: 254px ;height: 46px ;line-height: 46px}
+    #help{margin-top:64px;padding:0;padding-bottom: 40px}
+    #help h3{font-size: 32px;letter-spacing: 1px;margin-top: 54px}
+    #know{padding:0;}
+    #know{padding:16px 0;}
+    #know h1 {color: #012c6a; margin-top: 100px;font-size: 52px}
+    #know p{font-size: 25px}
+
+
+    .newsimg{margin-top: 12px}
+    #upcoming{padding-top: 74px;}
+    #upcoming h4{font-size: 26px;}
+    .calendar{width: 110px;height: 110px;}
+    .calendar>p{line-height: 26px;height: 26px;}
+    .day{font-size: 50px}
+    .month,.year{font-size:14px}
+    .desc{font-size:20px;margin-top: 30px;}
+    #news_line2{margin-top: 64px}
+    #news_line2 h1{margin-top: 50px;}
+    #know{padding:12px 0;}
+    #know h1 {color: #012c6a; margin-top: 100px;font-size: 36px}
+    #know p{font-size: 16px}
+}
+
+@media (min-width:1400px){
+    #welcome .modal-dialog {
+        width: 1040px;
+        top: 50%;
+        margin: -265px auto 0;
+    }
+    #left_part img{height:530px;width: 100%;}
+    #know{padding:16px 0;}
+    #know h1 {color: #012c6a; margin-top: 100px;font-size: 42px}
+    #know p{font-size: 20px}
+    header>nav{height: 66px;padding-top:2px}
+    .day{
+        font-size: 3rem
+    }
+
+    #hiring{
+        padding-top:13% !important;
+        padding-bottom: 11% !important
+    }
+    .btn-svc{
+        margin:auto 3em
+    }
+    .carousel-caption{
+        font-size:44px;
+    }
+    #collapse-1 li{
+        margin-right: 50px;
+    }
+    .mg60{
+        margin:auto 70px;
+    }
+}
+@media (min-width:1600px){
+    #know{padding:16px 0;}
+    #know h1 {color: #012c6a; margin-top: 100px;font-size: 52px}
+    #welcome .modal-dialog {
+        width: 1040px;
+        top: 50%;
+        margin: -265px auto 0;
+    }
+    #left_part img{height:530px;width: 100%;}
+}
+
+@media (min-width: 1920px){
+    #welcome .modal-dialog {
+        width: 1040px;
+        top: 50%;
+        margin: -265px auto 0;
+    }
+    #left_part img{height:530px;width: 100%;}
+    #know p{font-size: 24px}
+    .carousel-caption {bottom: 20%;}
+    header>nav{height: 80px}
+    .navbar>.container-fluid .navbar-brand{width: 103%;padding-top: 18px}
+    header>.collapse{margin-top:0px;}
+    .carousel-caption{
+        padding-bottom: 64px;
+        font-size: 52px;
+    }
+    .lang>li{width: 30px;height: 30px;line-height: 30px}
+
+    #buttons{top:64%;}
+    .button-ex{font-size: 22px;width: 330px}
+    .cityname_btm{font-size: 3.3em !important}
+    .office_title{margin: 10px auto;font-size: 48px}
+    #collapse-1 li {margin-right: 120px;}
+    .mg60 {margin: auto 65px auto 150px ;}
+    #fourOffice{margin-top: 15px}
+    #office{margin-top:40px;}
+    .office{font-size: 9px}
+    .black_btm{margin-top: 135px}
+    #know_more{margin-top:80px;}
+    .btn-more{width: 254px ;height: 46px ;line-height: 46px}
+    #help{margin-top:64px;padding:0;padding-bottom: 40px}
+    #help h3{font-size: 32px;letter-spacing: 1px;margin-top: 54px}
+    #know{padding:0;}
+    .newsimg{margin-top: 12px}
+    #upcoming{padding-top: 74px;}
+    #upcoming h4{font-size: 26px;}
+    .calendar{width: 110px;height: 110px;}
+    .calendar>p{line-height: 26px;height: 26px;}
+    .day{font-size: 50px}
+    .month,.year{font-size:14px}
+    .desc{font-size:28px;margin-top: 30px;margin-left: -88px}
+    .newstitle{font-size: 58px}
+    #news_line2{margin-top: 64px}
+    #news_line2 h1{margin-top: 50px; }
+    .description{font-size:26px}
+    .event_sub_title{font-size: 30px}
+    .btnimg{font-size: 24px;width: 40px;height: 40px;line-height: 40px}
+    .btnimg:hover{display: inline-block;
+        border:1px solid #fff;cursor: pointer;background: #000
+    }
+    #left_2{margin-left: 50px}
+    .number {font-size: 5em; margin-bottom: 0;}
+    #employee .description ,#years .description,#cases .description,#courses .description{padding-left: 0px;font-size: 20px;margin-top: -20px}
+    #know{padding:16px 0;}
+    #know h1 {color: #012c6a; margin-top: 100px;font-size: 52px}
+    #know p{font-size: 25px}
+    #scrollimg{height: 480px;}
+    #imglist li{
+        background: #fff;        width: 400px;
+        margin-right: 20px;        min-height: 1px;
+        position: relative;        float: left;
+        display: inline;
+    }
+    #carousel_ul li img{height: 240px}
+    #carousel_ul li{margin-right: 46px}
+    .sec_event{margin-left: -88px}
+    .sec_event .desc{margin-left: 0}
+    .imgfoot{ height: 140px;padding-top:2px;}
+    #carousel_container{position:relative;height: 600px; overflow:hidden;}
+    .title{    font-size: 13px;}
+    .date{font-size: 11px}
+    .content{font-size: 18px}
+    #viewall{margin-top:100px;}
+    #viewall a{    color:#0199e3;    text-decoration: underline;    font-size: 36px;}
+    #complaint h2{font-size: 50px}
+    #complaint .row{margin-top:116px;}
+    .compliant{font-size: 20px;}
+    .first-child{margin-top: 34px}
+    #complaint input,#complaint textarea{font-size: 20px;}
+    #complaint input{height: 58px}
+    #hiring {padding-top: 10% !important; ;margin-top: -70px}
+    #hiring h1{font-size: 56px;margin-top: 70px}
+    #hiring_text{font-size: 24px;width: 72%}
+    .explore{font-size: 14px !important;margin-top: 20px}
+    #footer_copy{padding-bottom: 120px;}
+    .account #in,.account #twitter{font-size:20px;width: 56px;height: 56px;line-height: 56px}
+    .account {margin-top: 10px;}
+    .account .btn-contact{    height: 56px;width: 180px;display: inline-block;line-height: 56px}
+    .privacy,.copy{margin-top: 30px;font-size: 14px;color: #fff}
+    #know p{font-size: 26px}
+}
+@media(min-width: 2560px){
+    .fix_height{padding-top:146px }
+    .navbar>.container-fluid .navbar-brand{width: 140%;padding-top: 20px}
+    header>nav{height: 120px}
+    header>.collapse{margin-top:20px;}
+    .carousel-caption{
+        padding-bottom: 55px;
+        font-size: 70px;
+    }
+    .lang>li{width: 40px;height: 40px;line-height: 40px;font-size: 18px}
+    .lang>li>a{line-height: 40px}
+    .lang{margin:20px auto;}
+    #buttons{top:66%;}
+    .button-ex{font-size: 35px;width: 540px}
+    .cityname_btm{font-size: 3.3em !important}
+    .office_title{margin: 35px auto;font-size: 58px}
+    #collapse-1 li {margin-right: 120px;}
+    .mg60 {margin: auto 120px auto 200px ;}
+    #office{margin-top:40px;}
+    .office{font-size: 12px}
+    .black_btm{margin-top: 190px}
+    #know_more{margin-top:80px;}
+    .btn-more{width:325px;height:62px;line-height: 62px}
+    #help{margin-top:80px;padding:70px 0;}
+    #help h3{font-size: 40px;letter-spacing: 4px}
+    .newsimg{margin-top: 40px}
+    #upcoming{padding-top: 112px;}
+    #upcoming h4{font-size: 34px;}
+    .calendar{width: 160px;height: 160px;}
+    .calendar>p{line-height: 38px;height: 38px;}
+    .day{font-size: 80px}
+    .month,.year{font-size:20px}
+    .desc{font-size:35px;margin-top: 30px;margin-left: -88px}
+    .newstitle{font-size: 85px}
+    #news_line2{margin-top: 64px}
+    #news_line2 h1{margin-top: 60px}
+    .description{font-size:26px}
+    .event_sub_title{font-size: 40px}
+    .btnimg{font-size: 30px;width: 50px;height: 50px;line-height: 50px}
+    .btnimg:hover{display: inline-block;
+        border:1px solid #fff;width: 50px;  height: 50px; line-height:50px;cursor: pointer;background: #000
+    }
+    #left_2{margin-left: 50px}
+    .number {font-size: 7em; margin-bottom: 0;}
+    #employee .description {padding-left: 10px;}
+    #employee .description {padding-left: 0px;font-size: 25px;}
+    #know h1 {color: #012c6a; margin-top: 150px;font-size: 70px}
+    #scrollimg{height: 640px;}
+    #imglist li{
+        background: #fff;        width: 540px;
+        margin-right: 20px;        min-height: 1px;
+        position: relative;        float: left;
+        display: inline;
+    }
+    #carousel_ul li img{height: 320px}
+    #carousel_ul li{margin-right: 60px}
+    .sec_event{margin-left: -88px}
+    .sec_event .desc{margin-left: 0}
+    .imgfoot{ height: 180px;padding-top:10px;}
+    #carousel_container{position:relative;height: 600px; overflow:hidden;}
+    .title{    font-size: 20px;}
+    .date{font-size: 20px}
+    .content{font-size: 23px}
+    #viewall{    margin-top:100px;}
+    #viewall a{    color:#0199e3;    text-decoration: underline;    font-size: 36px;}
+    #complaint h2{font-size: 70px}
+    #complaint .row{margin-top:156px;}
+    .compliant{font-size: 25px;}
+    .first-child{margin-top: 60px}
+    #complaint input,#complaint textarea{font-size: 25px;}
+    #complaint input{height: 70px}
+    #hiring {padding-top: 18% !important; padding-bottom: 156px !important;}
+    #hiring h1{font-size: 80px;margin-top: -100px}
+    #hiring_text{font-size: 30px;width: 80%}
+    .explore{font-size: 18px !important;margin-top: 70px}
+    #footer_copy{padding-bottom: 120px;}
+    .account #in,.account #twitter{font-size:38px;width: 64px;height: 64px;line-height: 64px}
+    .account {margin-top: 80px;}
+    .account .btn-contact{    height: 70px;width: 250px;display: inline-block;line-height: 70px}
+    .privacy,.copy{margin-top: 30px;font-size: 24px;color: #fff}
+    #know p{font-size: 32px}
+}
+
+.lang>li {
+    position: relative;
+    display: block;
+}
+.lang>li>a {
+    position: relative;
+    display: block;
+}
+.lang_2 li{
+    float: left;
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+}
+.lang_2{
+    padding: 20px 0;
+    margin-bottom: 20px;
+}
+
+
+#event h1{
+    font-size:3em;
+    line-height: 30px;
+    margin-bottom: 0
+}
+#event h1,#event h2,#event h3,#event h4{
+    color:#f0f0f0
+}
+
+button .name{
+    position: absolute;
+    top:50%;
+    transform-origin:-50%;
+    color: #fff;
+    width: 200px;
+    text-transform:uppercase;
+}
+
+.carousel-indicators {
+    display: none;
+}
+
+.carousel-control.left,.carousel-control.right{
+    background-image:none;
+}
+#office img{
+    width: 100%;
+}
+
+.description{
+    color:#e0e0e0
+}
+
+#know{
+    padding:60px 0;
+}
+.black_btm{
+    box-sizing: border-box;
+    box-shadow: 3px -3px 3px #eee;
+    border-bottom: 4px solid #012c6a
+}
+
+
+a.btn-more{
+    position: relative;
+    display: inline-block;
+    background: #012c6a;
+    color: #fff;
+    border-radius: 3px;
+}
+.btn-more >img{
+    position: absolute;
+    right: 20px;
+    top:50%;
+    margin-top: -6px;
+    display: block;
+    width: 12px;
+    height:12px;
+}
+#newsimg img{
+    width:100%
+}
+#bkgimg{
+    position: relative;
+    z-index: -2
+}
+
+#newsimg:before{
+    content: "";
+    background: rgba(1,44,106,0.9);
+    width: 100%;
+    height: 100%;
+    opacity: 0.8;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+#event_content{
+    color: #fff;
+    z-index: 3;
+}
+#event_content a{
+    text-decoration: underline;
+    color: #00aeff
+}
+.calendar{
+    background: #537db5;
+    text-align: center;
+    padding: 6px;
+    padding-top: 10px;
+    text-transform: uppercase
+}
+
+.month,.year,.day,.desc{
+    color:#f0f0f0;
+}
+
+
+
+.title{
+    float: left;
+    color: #537db5;
+    font-weight: bold
+}
+.date{
+    float: left;
+    margin-left:20px;
+    color: #537db5;
+    transform: scale(0.8)
+}
+.content{
+    color: #333;
+    margin-top:10px
+}
+#imglist{
+    margin-top:5px
+}
+#imglist img{
+    height: 150px
+}
+
+#machine{
+    position: relative;
+    z-index: 3;
+}
+#machine button>img{
+    width: 100%;
+    height: 100%
+}
+#machine button{
+    padding: 0;
+    width:74px;
+    height: 74px;
+    border: none;
+    background: transparent;
+}
+
+#machine p{
+    padding: 0;
+    margin:0;
+    font-size: 1rem;
+}
+input[type=checkbox]{
+    background: #fff
+}
+.icheckbox_minimal-blue.checked {
+    background-position: -40px 0;
+}
+#hiring_desc{
+    position: absolute;
+    color: #fff;
+}
+#hiring{
+    /*background:  url('/image/pic_foot.png') no-repeat;*/
+    width:100%;
+    color:#f0f0f0;
+    background-size: cover;
+
+}
+
+#imglist .title,#imglist .content{
+    margin-left: 15px;
+}
+.explore,.btn-contact{
+    border:1px solid #f0f0f0;
+    color: #f0f0f0;
+    font-size: 1em;
+    text-transform:uppercase;
+    display: inline-block;
+    width:14em;
+    height: 3.3em;
+    line-height: 3.3em;
+    position: relative;
+    padding: 0 1em;
+    text-align: left;
+    border-radius: 3px;
+    cursor: pointer;
+}
+.explore:hover,.btn-contact:hover{
+    background: #000;
+    color: #f0f0f0
+}
+
+
+a.button{
+    color:#fff;
+    text-decoration: none;
+    background: #012c6a;
+    display: block;
+    height: 50px;
+    width: 200px;
+    border: 2px solid #fff;
+    border-radius: 2px;height: 50px;border:2px solid #fff;color: #fff;text-align:center;line-height: 50px;text-transform:uppercase;
+}
+a.button:hover{
+    background: #000
+}
+a.button>img{
+    width: 10px;margin-left:10px;
+}
+
+#in,#twitter{
+    width: 30px;
+    height: 30px;
+    line-height: 30px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    border:1px solid #f0f0f0;
+    border-radius: 50%;
+}
+li{list-style:none}
+img{border:0}
+body{background-color:#fff;}
+.con{overflow:hidden; width:100%; height:100%;}
+
+#carousel_inner{width:100%;  overflow: hidden; position:absolute;}
+#left_scroll{position: absolute;left:0;top:43px;width:0px;height:9px;}
+#right_scroll{position: absolute;top:43px;right:0; width: 0px;height: 9px;}
+#carousel_ul{width:9999px; position:relative;padding: 0}
+
+#carousel_ul li img{
+    width: 100%
+}
+#hiring_desc ,footer>div {
+    transform: scale(0.9)
+}
+.carousel-caption{
+    left:0;
+    right: 0;
+}
+.carousel-inner img{
+    width:100%
+}
+
+.updates{
+    padding-bottom: 10px
+}
+
+#success .modal-header{
+    border:none;
+}
+#success .modal-content{
+    background:#00205b;color:#f0f0f0;
+}
+#success .close{color:#f0f0f0}
+.whatneed{
+    color:#8d7a54;
+    font-size: 20px;
+}
+#welcome .modal-content{
+    background:rgb(15,24,66)
+}
+
+#welcome{
+    color:#f0f0f0;
+}
+#welcome button.close{
+    position: absolute;
+    top:20px;
+    left: 30px;
+    color: #fff;
+    background:#3c3c3c;
+    width: 36px;
+    height: 36px;
+    line-height: 36px;
+    opacity: 1
+}
+#welcome button.close span{
+    font-weight: 100
+}
+.welcome_item a,.welcome_title,.chooseOne{
+    color:#f0f0f0;
+    font-size:14px;
+}
+#welcome .form-control{
+    height: 30px;
+    width: 70%;
+    margin-left: 15%;
+    color:#333;
+    font-size: 12px
+}
+#welcome form{
+    margin-top:10px;
+}
+#left_part{
+    width: 50%;float: left;
+}
+.navbar-nav>li>.dropdown-menu{
+    background: #f0f0f0;
+    border:none;
+    /*margin-left:;*/
+}
+
+#cursor{
+    background-repeat: no-repeat;
+    position: absolute;
+    width: 30px;
+    height: 57px;
+}
+@keyframes r_rotate{
+    0% {
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(180deg);
+    }
+}
+@keyframes l_rotate{
+    0% {
+        transform:rotate(0);
+    }
+    100%{
+        transform:rotate(-180deg);
+    }
+}
+.l_rotate{
+    /*background: url('/image/left_arrow.png') no-repeat;*/
+    animation: r_rotate 1s linear 1;
+    animation-fill-mode: forwards
+}
+.r_rotate{
+    /*background: url('/image/right_arrow.png') no-repeat;*/
+    animation: l_rotate 1s linear 1;
+    animation-fill-mode: forwards
+}
+#japan_office{
+    position:absolute;
+    top:73%;
+    left:13%;
+    font-weight: bold;
+    color:#012c6a;
+    transition: color 0.5s
+}
+
+#hk_office,.cityname{
+    position:absolute;
+    top:15%;
+    left:6%;
+    font-weight: bold;
+    color:#f0f0f0;
+    transition: color 0.5s;
+    letter-spacing:-1px;
+    font-size: 2.5em
+}
+#hk_office:hover{
+
+}
+#singapor_office{
+    position:absolute;
+    top:73%;
+    left:9%;
+    font-weight: bold;
+    color:#012c6a;
+    transition: color 0.5s;
+    letter-spacing:-1px;
+}
+#china_office{
+    position:absolute;
+    top:74%;
+    left:10%;
+    font-weight: bold;
+    color:#012c6a;
+    transition: color 0.5s;
+    letter-spacing:-1px;
+}
+#center_part{
+    position: absolute;
+    width: 100px;
+    height: 100vh;
+    background: green;
+}
+#office .row>*,.btnimg,.explore,button,.btn-contact{
+    cursor: default;
+}
+
+.selected{
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    top:0;
+    left:0;
+    color: #fff;
+    background: #012c6a;
+    opacity: 0.8;
+    transition: all .3s ease-out;
+    transform: rotateX(90deg);
+    transform-origin: left bottom;
+}
+.office{
+    width: 100%;height: 100%;position: relative;
+}
+.office:hover .selected,.office:focus.selected{
+    transform: rotateX(0deg);
+}
+
+.office_desc{
+    position: absolute;
+    font-size: 1.3em;
+    width:88%;
+    top: 36%;
+    left: 6%;
+    line-height: 1.6em
+}
+#hk_office{font-size:2.5em;}
+.cityname_btm{
+    font-weight: 600;
+    font-size:2.3em;
+    position: absolute;
+    height: 10px;
+    background: #fff;
+    width: 100%;
+    opacity: 0.9;
+    height: 25%;
+    left: 0;
+    top: 75%;
+    color:#012c6a;
+
+}
+.cityname_btm div{
+    position: absolute;
+    left: 6%;
+    top: 20%;
+}
+.office:hover .cityname_btm{
+    display: none
+}
+#singapor_office,#china_office{font-size:2.9em;}
+.office{
+    margin-bottom: 10px
+}
+.privacy,.copy{color: #fff}
+
+@keyframes jump {
+    0%, 100% {transform: translateY(0) scale(1)}
+    50% {transform: translateY(-20px) scale(1.2);}
+}
+#earth{width: 32px;height: 32px;display: inline-block;margin-top: 8px;float: right;
+    /*appearance:none;background: url(/image/earth.ico) no-repeat scroll right center transparent;*/
+    background-size: contain;
+    -moz-appearance:none;
+    -webkit-appearance:none;
+    -ms-appearance:none;
+}
+
+#earth ul{position:absolute;z-index: 999;border:2px solid #f0f0f0;text-align: center;margin:0;padding:0;
+    background: #012c6a;transform: translateX(-10%);
+}
+#earth ul>li>a{
+    color:#f0f0f0;line-height: 2em;font-size: 1em;padding:20px;
+}
+
+@media screen and (max-width:767px) {
+    .modal-dialog .whatneed{
+        font-size: 14px!important;
+    }
+    .modal-dialog {
+        top: 50%;
+        margin-top: -222px;
+    }
+}
+@media screen and (max-width:375px) {
+    .modal-dialog {
+        top: 50%;
+        margin-top: -242px;
+    }
+}
+
+@media screen and (max-width:320px) {
+    .welcome_item a, .welcome_title, .chooseOne{
+        font-size: 12px!important;
+    }
+    .modal-dialog .whatneed{
+        font-size: 12px!important;
+    }
+    .modal-dialog {
+        top: 50%;
+        margin-top: -229px;
+    }
+}
